@@ -28,7 +28,7 @@
 </head>
 <body>
   <h1>📦 AR 모델 보기</h1>
-  <p>아래 버튼을 누르면 AR 뷰어실행ㅇㅇㅇ/anim</p>
+  <p>아래 버튼을 누르면 AR 뷰어실행ㅈㅈㅈㅈ/anim</p>
 
   <!-- AR 보기 버튼 -->
   <a id="arLink" href="#">AR로 보기</a>
@@ -43,7 +43,7 @@
     const isAndroid = /Android/.test(userAgent);
 
     if (isIOS) {
-      arLink.href = "Orbitstair_250730_v2.usdz";
+      arLink.href = "Test.usdz";
       arLink.setAttribute("rel", "ar");
     } else if (isAndroid) {
       const glbFile = location.origin + location.pathname.replace(/\/[^\/]*$/, '/OrbitStair_typC_250730.glb');
